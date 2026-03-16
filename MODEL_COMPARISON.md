@@ -1,5 +1,5 @@
-# Model Comparison Tables for IEEE Paper
-## Smart Parking Prediction System (SPPS)
+# Model Comparison Tables 
+## Smart Parking Prediction System
 
 ---
 
@@ -99,88 +99,6 @@
 
 ---
 
-## Suggested LaTeX Format (For Direct IEEE Submission)
-
-```latex
-\begin{table}[htbp]
-\caption{Comparison of Object Detection Models}
-\label{tab:yolo_comparison}
-\centering
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\textbf{Model} & \textbf{mAP@0.5} & \textbf{Precision} & \textbf{Recall} & \textbf{FPS} \\
-\hline
-YOLOv8 Custom & \textbf{0.986} & 0.951 & 0.950 & 45 \\
-YOLOv11n Pretrained & 0.396 & 0.428 & 0.367 & 68 \\
-YOLOv8m Pretrained & 0.103 & 0.181 & 0.119 & 52 \\
-Baseline Model & 0.023 & 0.034 & 0.152 & 38 \\
-\hline
-\end{tabular}
-\end{table}
-
-\begin{table}[htbp]
-\caption{Time-Series Forecasting Models Performance}
-\label{tab:forecasting_comparison}
-\centering
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\textbf{Model} & \textbf{Accuracy} & \textbf{MAE} & \textbf{RMSE} & \textbf{F1-Score} \\
-\hline
-LSTM & 91.5\% & 0.08 & 0.12 & 0.89 \\
-Prophet & 89.0\% & 0.11 & 0.15 & 0.85 \\
-\textbf{Ensemble} & \textbf{93.2\%} & \textbf{0.07} & \textbf{0.10} & \textbf{0.91} \\
-\hline
-\end{tabular}
-\end{table}
-```
-
----
-
-## Microsoft Word Format Tables
-
-### For Word/DOCX Format:
-1. Copy the markdown tables above
-2. Paste into Word
-3. Select the text → Insert → Table → Convert Text to Table
-4. Choose "Tabs" as separator
-5. Apply IEEE table formatting:
-   - Font: Times New Roman, 8pt for table content
-   - Header row: Bold, centered
-   - Data cells: Centered for numbers, left-aligned for text
-   - Table caption: Above table, 8pt, centered
-
----
-
-## Key Findings Summary
-
-### Object Detection Performance:
-- Custom-trained YOLOv8 model achieves **98.6% mAP@0.5**, significantly outperforming all pretrained models
-- YOLOv11n shows **3.8x improvement** over YOLOv8m (39.6% vs 10.3% mAP@0.5) with **90% fewer parameters**
-- **85.5% improvement** in precision compared to generic YOLOv8m model
-- Training on 700,000 domain-specific images crucial for accuracy
-- YOLOv11n offers best balance of speed (68 FPS) and accuracy for baseline pretrained models
-
-### Time-Series Forecasting Performance:
-- Ensemble approach provides **+3.2% accuracy** over Prophet and **+1.7%** over LSTM
-- LSTM excels in short-term predictions (15-30 min) with lower MAE
-- Prophet captures long-term seasonal patterns better
-- Combined ensemble achieves **93.2% accuracy** with **0.91 F1-score**
-
-### Computational Efficiency:
-- YOLOv8 inference: **45 FPS** for real-time detection
-- LSTM prediction: **15ms** per forecast (suitable for real-time systems)
-- Ensemble overhead: **+45ms** (acceptable for 15-60 min forecasts)
-
----
-
-## Recommended Tables for IEEE Paper
-
-**Primary Tables (Must Include):**
-1. **Table I**: YOLOv8 Models Comparison - Shows superiority of custom training
-2. **Table II**: Forecasting Models Comparison - Demonstrates ensemble effectiveness
-
-**Supplementary Tables (Optional):**
-3. **Table III**: LSTM Architecture - For readers interested in implementation details
 4. **Table V**: Training Configuration - Enables reproducibility
 5. **Table VI**: Feature Engineering - Shows comprehensive data preparation
 
