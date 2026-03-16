@@ -1,0 +1,46 @@
+# Environments
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large files and datasets
+*.mp4
+*.avi
+*.mkv
+data/
+runs/
+research_archive/
+videos/
+
+# Database
+database/*.db
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# Build and distribution directories
+dist/
+build/
+*.egg-info/
+
+# If models exceed 100MB, you should uncomment the next line and use Git LFS instead.
+# models/*.pt

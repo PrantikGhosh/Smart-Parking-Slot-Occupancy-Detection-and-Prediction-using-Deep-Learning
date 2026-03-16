@@ -1,0 +1,38 @@
+# Core Dependencies
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Dashboard
+streamlit>=1.28.0
+plotly>=5.17.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Data Processing
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Time Series Models
+tensorflow>=2.13.0
+prophet>=1.3.0
+scikit-learn>=1.3.0
+
+# Video Processing
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# UI Components
+streamlit-drawable-canvas>=0.9.3
+streamlit-image-coordinates>=0.1.6
+
+# Utilities
+pyyaml>=6.0
+

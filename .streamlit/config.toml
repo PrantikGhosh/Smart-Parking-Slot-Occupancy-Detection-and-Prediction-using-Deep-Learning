@@ -1,0 +1,11 @@
+[server]
+# Maximum file upload size in MB (default is 200MB)
+# Setting to 2048MB (2GB) to handle large videos
+maxUploadSize = 2048
+
+# Increase message size limit to handle large data transfers
+maxMessageSize = 2048
+
+[browser]
+# Automatically open browser when running
+gatherUsageStats = false
