@@ -143,6 +143,6 @@ Our Streamlit Dashboard features three main hubs:
 ---
 
 <div align="center">
-  <p><strong>Engineered with 💡 by Prantik Ghosh and Team</strong></p>
+  <p><strong>Engineered by Prantik Ghosh and Abhivesh Shukla</strong></p>
   <a href="https://github.com/PrantikGhosh">GitHub Profile</a>
 </div>
