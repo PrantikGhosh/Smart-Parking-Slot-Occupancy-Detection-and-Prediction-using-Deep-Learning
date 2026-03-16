@@ -1,6 +1,5 @@
 <div align="center">
-  <h1>🚗 Smart Parking Prediction System (SPPS)</h1>
-  <p><strong>Intelligent Real-Time Parking Space Detection and Occupancy Forecasting using Deep Learning</strong></p>
+  <h1>Smart Parking Slot Occupancy Detection and Prediction using Deep Learning</h1>
 
   <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/YOLOv8-Object%20Detection-yellow.svg" alt="YOLOv8">
@@ -12,7 +11,7 @@
 ---
 
 ## 📖 Executive Summary
-The **Smart Parking Prediction System (SPPS)** is an advanced computer vision and time-series forecasting solution designed to address urban parking challenges. By treating existing CCTV infrastructure as dynamic sensors, this system eliminates the substantial capital expenditure required for traditional IoT sensor parking solutions.
+The **Smart Parking Slot Occupancy Detection and Prediction using Deep Learning** is an advanced computer vision and time-series forecasting solution designed to address urban parking challenges. By treating existing CCTV infrastructure as dynamic sensors, this system eliminates the substantial capital expenditure required for traditional IoT sensor parking solutions.
 
 This project combines state-of-the-art deep learning models—including a custom-trained **YOLOv8 model** fine-tuned on over **700,000 images**—along with a hybrid forecasting engine combining **LSTM neural networks** and **Facebook Prophet** to predict parking availability up to 60 minutes into the future. 
 
@@ -103,8 +102,8 @@ To achieve perfection, we literally fuse the outputs of the two engines together
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/PrantikGhosh/Smart-Parking-Prediction-System.git
-cd "Smart-Parking-Prediction-System"
+git clone https://github.com/PrantikGhosh/Smart Parking Slot Occupancy Detection and Prediction using Deep Learning.git
+cd "Smart Parking Slot Occupancy Detection and Prediction using Deep Learning"
 ```
 
 ### 2. Set Up the Virtual Environment
