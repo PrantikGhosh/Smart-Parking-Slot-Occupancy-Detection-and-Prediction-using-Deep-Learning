@@ -1,5 +1,0 @@
-Model,mAP@50,mAP@50-95,Precision,Recall
-YOLOv8m (Pretrained) 0.103, 0.032, 0.181, 0.119
-YOLOv8 Parking Optimized 0.523, 0.407, 0.334, 0.352
-YOLOv8 Parking Custom 0.986, 0.757, 0.951, 0.950
-YOLOv11n (Pretrained) 0.396, 0.195, 0.428, 0.367
